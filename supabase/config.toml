@@ -1,0 +1,6 @@
+# Both functions are intentionally callable without a signed-in user: the site has no login wall.
+[functions.hyperschedule]
+verify_jwt = false
+
+[functions.atlas]
+verify_jwt = false
